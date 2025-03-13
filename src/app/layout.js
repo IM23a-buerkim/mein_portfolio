@@ -29,7 +29,12 @@ export default function RootLayout({children}) {
                         </div>
                     </div>
                 </div>
-
+                <div id="navbar">
+                    <a href="#" className="navbar_text">Home</a>
+                    <a href="#" className="navbar_text">Projekte</a>
+                    <a href="#" className="navbar_text">Über mich</a>
+                    <a href="#" className="navbar_text">Skills</a>
+                </div>
                 {children}
                 <h1>footer</h1>
             </body>

@@ -5,7 +5,7 @@
 }
 
 :root {
-    --header-img-size: 85dvh;
+    --header-img-size: 85vh;
     --extra-light: 100;
     --light: 200;
     --regular: 400;
@@ -70,7 +70,7 @@
 }
 
 #img_landschaft_right_top {
-    height: 12dvh;
+    height: 12vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -90,7 +90,7 @@
 }
 
 #img_landschaft_right_middle {
-    height: 45dvh;
+    height: 45vh;
     width: 100%;
     color: white;
     display: flex;
@@ -110,7 +110,7 @@
 }
 
 #img_landschaft_right_bottom {
-    height: 28dvh;
+    height: 28vh;
     width: 100%;
     color: white;
     display: flex;

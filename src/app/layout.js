@@ -25,7 +25,7 @@ export default function RootLayout({children}) {
                             <div className="ilrm_text">Bürki</div>
                         </div>
                         <div id="img_landschaft_right_bottom">
-                            <div class="ilrb_text" >Willkommen auf <br /> meiner Webseite</div>
+                            <div className="ilrb_text" >Willkommen auf <br /> meiner Webseite</div>
                         </div>
                     </div>
                 </div>

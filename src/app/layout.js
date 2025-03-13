@@ -35,6 +35,7 @@ export default function RootLayout({children}) {
                 <a href="#" className="navbar_text">Projekte</a>
                 <a href="#" className="navbar_text">Über mich</a>
                 <a href="#" className="navbar_text">Skills</a>
+                <a href="#" className="navbar_text">Menü</a>
             </div>
         </header>
         <main>
@@ -42,7 +43,7 @@ export default function RootLayout({children}) {
         </main>
         <footer>
             <div id="footer">
-                <div className="footer_text">© 2025 Manuel Bürki</div>
+                <div id="footer_copy" className="footer_text">© 2025 Manuel Bürki</div>
                 <div id="footer_icons">
                     <a href="#" className="footer_icons">Github</a>
                     <a href="#" className="footer_icons">E-Mail</a>

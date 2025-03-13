@@ -17,15 +17,15 @@
 }
 
 #img_landschaft {
-	position: absolute;
+    position: absolute;
     min-width: 100%;
-	height: var(--header-img-size);
-	background-size: cover;
-	background-position:center;
-	background-color: #697565;
-	overflow: hidden;
-	transform: scaleX(-1);
-	z-index: -1;
+    height: var(--header-img-size);
+    background-size: cover;
+    background-position: center;
+    background-color: #697565;
+    overflow: hidden;
+    transform: scaleX(-1);
+    z-index: -1;
 }
 
 #img_landschaft::before {
@@ -41,8 +41,8 @@
 }
 
 #img_landschaft_cover {
-	min-width: 100%;
-	height: var(--header-img-size);
+    min-width: 100%;
+    height: var(--header-img-size);
     display: flex;
 }
 
@@ -55,7 +55,7 @@
 }
 
 #img_landschaft_left_foto {
-	width: 22vw;
+    width: 22vw;
     height: 28vw;
     background-color: #262626;
     border-radius: 20px;
@@ -63,7 +63,7 @@
 }
 
 #img_landschaft_right {
-	height: var(--header-img-size);
+    height: var(--header-img-size);
     width: 55%;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
@@ -146,11 +146,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    line-height: normal;
+    vertical-align: middle;
 }
 
 .navbar_text:hover {
     background-color: #F6CF60;
     color: #262626;
+}
+
+#navbar > :last-child {
+    display: none;
 }
 
 #footer {
@@ -177,4 +183,99 @@
 .footer_icons {
     color: black;
     text-decoration: none;
+}
+
+@media screen and (max-width: 875px) {
+    #img_landschaft_cover {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #img_landschaft_left {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #img_landschaft_left_foto {
+        width: 18vh;
+        height: 22vh;
+    }
+
+    #img_landschaft_right {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #img_landschaft_right_top {
+        height: 10vh;
+    }
+
+    .ilrt_text {
+        font-size: 5.5vw;
+        margin: 0 2vw;
+    }
+
+    .ilrt_text:last-child {
+        padding-right: 3vw;
+    }
+
+    #img_landschaft_right_middle {
+        height: 25vh;
+    }
+
+    .ilrm_text {
+        font-size: 15vw;
+        padding-left: 10vw;
+    }
+
+    #img_landschaft_right_bottom {
+        height: 15vh;
+    }
+
+    .ilrb_text {
+        font-size: 6vw;
+    }
+
+    #navbar {
+        height: 20vh;
+    }
+
+    #navbar > * {
+        display: none;
+    }
+
+    #navbar > :nth-child(1) {
+        display: block;
+    }
+
+    #navbar > :last-child {
+        display: block;
+    }
+
+    .navbar_text {
+        font-size: 5vw;
+        width: 40vw;
+        padding: 3vh 0;
+    }
+
+    #footer {
+        flex-direction: column;
+        font-size: 5.5vw;
+        height: 25vh;
+    }
+
+    #footer_icons {
+        width: 100vw;
+        order: 1;
+    }
+
+    #footer_copy {
+        order: 3;
+    }
+
+    #footer_impressum {
+        order: 2;
+    }
+
+
 }

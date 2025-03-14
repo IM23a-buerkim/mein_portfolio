@@ -18,7 +18,7 @@
 
 #img_landschaft {
     position: absolute;
-    min-width: 100%;
+    width: 100%;
     height: var(--header-img-size);
     background-size: cover;
     background-position: center;

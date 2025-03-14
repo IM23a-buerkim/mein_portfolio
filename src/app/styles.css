@@ -185,10 +185,10 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 1400px) {
     #img_landschaft_cover {
         flex-direction: column;
-        height: 80vh;
+        height: 85vh;
     }
 
     #img_landschaft_left {
@@ -229,7 +229,7 @@
     }
 
     #img_landschaft_right_bottom {
-        height: 15vh;
+        height: 20vh;
     }
 
     .ilrb_text {
@@ -237,7 +237,7 @@
     }
 
     #navbar {
-        height: 20vh;
+        height: 15vh;
     }
 
     #navbar > * {

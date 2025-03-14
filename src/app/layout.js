@@ -1,4 +1,6 @@
 import './styles.css';
+import MenuButton from './MenuButton';
+
 
 export const metadata = {
     title: 'Next.js',
@@ -35,7 +37,7 @@ export default function RootLayout({children}) {
                 <a href="#" className="navbar_text">Projekte</a>
                 <a href="#" className="navbar_text">Über mich</a>
                 <a href="#" className="navbar_text">Skills</a>
-                <a href="#" className="navbar_text">Menü</a>
+                <MenuButton />
             </div>
         </header>
         <main>

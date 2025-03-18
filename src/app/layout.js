@@ -1,5 +1,6 @@
 import './styles.css';
 import MenuButton from './MenuButton';
+import OrientationMessage from './handy_querformat';
 
 
 export const metadata = {
@@ -9,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({children}) {
     return (
-        <html lang="en">
+        <html lang="de">
         <body>
         <header>
             <div id="img_landschaft" style={{backgroundImage: "url('/Landschaft_Portfolio.jpg')"}}></div>
@@ -37,7 +38,7 @@ export default function RootLayout({children}) {
                 <a href="#" className="navbar_text">Projekte</a>
                 <a href="#" className="navbar_text">Über mich</a>
                 <a href="#" className="navbar_text">Skills</a>
-                <MenuButton />
+                <MenuButton/>
             </div>
         </header>
         <main>
@@ -54,6 +55,9 @@ export default function RootLayout({children}) {
                 <div id="footer_impressum">Impressum</div>
             </div>
         </footer>
+        <div id="orientation-message" className="orientation-message">
+            Bitte drehen Sie Ihr Gerät in den Hochformatmodus.
+        </div>
         </body>
         </html>
     )

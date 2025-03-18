@@ -1,6 +1,5 @@
 import './styles.css';
 import MenuButton from './MenuButton';
-import OrientationMessage from './handy_querformat';
 
 
 export const metadata = {
@@ -55,9 +54,6 @@ export default function RootLayout({children}) {
                 <div id="footer_impressum">Impressum</div>
             </div>
         </footer>
-        <div id="orientation-message" className="orientation-message">
-            Bitte drehen Sie Ihr Gerät in den Hochformatmodus.
-        </div>
         </body>
         </html>
     )

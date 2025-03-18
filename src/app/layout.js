@@ -47,9 +47,9 @@ export default function RootLayout({children}) {
             <div id="footer">
                 <div id="footer_copy" className="footer_text">© 2025 Manuel Bürki</div>
                 <div id="footer_icons">
-                    <a href="#" className="footer_icons">Github</a>
-                    <a href="#" className="footer_icons">E-Mail</a>
-                    <a href="#" className="footer_icons">Instagram</a>
+                    <a href="#" className="footer_icons" style={{backgroundImage: "url('/github.png')"}}></a>
+                    <a href="#" className="footer_icons" style={{backgroundImage: "url('/email.png')"}}></a>
+                    <a href="#" className="footer_icons" style={{backgroundImage: "url('/instagram.png')"}}></a>
                 </div>
                 <div id="footer_impressum">Impressum</div>
             </div>

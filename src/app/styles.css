@@ -57,11 +57,17 @@
 }
 
 #img_landschaft_left_foto {
-    width: 22vw;
-    height: 28vw;
+    width: 19vw;
+    height: 19vw;
     background-color: #262626;
     border-radius: 20px;
-    box-shadow: -10px 10px 15px black;
+    box-shadow: 10px 10px 15px black;
+    position: absolute;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    transform: scaleX(-1);
+    z-index: -1;
 }
 
 #img_landschaft_right {
@@ -192,6 +198,7 @@
 main {
     height: 200vh;
     margin-top: 15vh;
+    background-color: #FFF9F0;
 }
 
 @media screen and (max-width: 1400px) {
@@ -207,7 +214,7 @@ main {
 
     #img_landschaft_left_foto {
         width: 18vh;
-        height: 22vh;
+        height: 18vh;
     }
 
     #img_landschaft_right {

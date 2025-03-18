@@ -15,7 +15,7 @@ export default function RootLayout({children}) {
             <div id="img_landschaft" style={{backgroundImage: "url('/Landschaft_Portfolio.jpg')"}}></div>
             <div id="img_landschaft_cover">
                 <div id="img_landschaft_left">
-                    <div id="img_landschaft_left_foto"></div>
+                    <div id="img_landschaft_left_foto" style={{backgroundImage: "url('/mein_foto_2.png')"}}></div>
                 </div>
                 <div id="img_landschaft_right">
                     <div id="img_landschaft_right_top">

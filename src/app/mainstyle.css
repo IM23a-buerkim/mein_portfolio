@@ -23,6 +23,7 @@ main {
     --extra-bold: 800;
     --black: 900;
     --titel: 5vw;
+    --titel_handy: 15vw;
 }
 
 #projekte {
@@ -46,8 +47,9 @@ main {
 
 #s_list {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .s_l_element {
@@ -76,4 +78,27 @@ main {
     color: white;
     margin: 1vw 0 2vw 0;
     text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+    #s_titel {
+        font-size: var(--titel_handy);
+        margin: 1vh 0;
+    }
+
+    #s_list {
+        margin: 0 0 3vh 0;
+    }
+
+    .s_l_icon {
+        height: 20vw;
+        width: 20vw;
+        margin: 0 4vw;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    .s_l_titel {
+        font-size: 4vw;
+        margin: 1vw 0 2vw 0;
+    }
 }

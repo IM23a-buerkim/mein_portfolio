@@ -2,10 +2,13 @@ import './styles.css';
 import MenuButton from './MenuButton';
 
 
+export const viewport = {
+    themeColor: '#697565',
+}
+
 export const metadata = {
     title: 'Manuel Bürki',
     description: 'Portfolio von Manuel Bürki',
-    themeColor: '#697565',
     manifest: '/manifest.json',
 }
 

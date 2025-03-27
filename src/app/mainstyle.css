@@ -23,11 +23,83 @@ main {
     --extra-bold: 800;
     --black: 900;
     --titel: 5vw;
-    --titel_handy: 15vw;
+    --titel_handy: 12vw;
 }
 
 #projekte {
-    height: 100vh;
+    height: 50vh;
+    background-color: pink;
+}
+
+#ueber {
+    display: flex;
+    margin: 20vh 0;
+    justify-content: space-evenly;
+}
+
+#ueber_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ueber_links_foto {
+    width: 32vw;
+    margin: 0 0 0 8vw;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 10px black;
+    transform: scaleX(-1);
+}
+
+#ueber_rechts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    margin: 0 8vw;
+}
+
+#ueber_rechts_titel {
+    font-size: var(--titel);
+    font-weight: var(--medium);
+    color: black;
+    margin: 0 0 0 0;
+}
+
+#ueber_rechts_strich {
+    height: 1vh;
+    width: 15vw;
+    background-color: #697565;
+    margin: 0 0 0 0;
+}
+
+#ueber_rechts_text {
+    font-size: 1.8vw;
+    color: black;
+    margin: 4vh 0 4vh 0;
+}
+
+.u_r_s_element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.2vh 0;
+}
+
+.u_r_s_titel {
+    font-size: 1.4vw;
+    line-height: 1.6vw;
+    font-weight: var(--bold);
+    color: black;
+    margin: 0 2vw 0 0;
+    width: 10vw;
+}
+
+.u_r_s_text {
+    font-size: 1.4vw;
+    line-height: 1px;
+    color: black;
+    margin: 0 0 0 0;
 }
 
 #skills {
@@ -81,6 +153,65 @@ main {
 }
 
 @media screen and (max-width: 1400px) {
+    #ueber {
+        flex-direction: column;
+        margin: 10vh 0;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    #ueber_links {
+        width: 100vw;
+        margin: 0 0 5vh 0;
+        align-items: center;
+    }
+
+    #ueber_links_foto {
+        width: 70vw;
+        margin: 0 0 0 0;
+        box-shadow: 10px 10px 40px 10px black;
+    }
+
+    #ueber_rechts {
+        width: 100vw;
+        margin: 0 0 5vh 5vw;
+        align-items: flex-start;
+    }
+
+    #ueber_rechts_titel {
+        font-size: var(--titel_handy);
+        margin: 0 0 0 0;
+    }
+
+    #ueber_rechts_strich {
+        width: 35vw;
+        height: 0.8vh;
+        margin: 0 0 0 0;
+    }
+
+    #ueber_rechts_text {
+        width: 80vw;
+        font-size: 5vw;
+        margin: 4vh 2vw 4vh 0;
+    }
+
+    .u_r_s_element {
+        margin: 1vh 0;
+    }
+
+    .u_r_s_titel {
+        font-size: 4vw;
+        line-height: 4.5vw;
+        margin: 0 2vw 0 0;
+        width: 25vw;
+    }
+
+    .u_r_s_text {
+        font-size: 4vw;
+        line-height: 1px;
+        margin: 0 0 0 0;
+    }
+
     #s_titel {
         font-size: var(--titel_handy);
         margin: 1vh 0;

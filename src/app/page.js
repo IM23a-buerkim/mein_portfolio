@@ -10,7 +10,32 @@ const Page = () => {
                 <h2>Projekte</h2>
             </div>
             <div id="ueber">
-                <h2>Über mich</h2>
+                <div id="ueber_links">
+                    <img id="ueber_links_foto" src="/Manuel_Portfolio.jpg" alt="Mein Foto"></img>
+                </div>
+                <div id="ueber_rechts">
+                    <div id="ueber_rechts_titel">Über mich</div>
+                    <div id="ueber_rechts_strich"></div>
+                    <div id="ueber_rechts_text">
+                        Mein Name ist Manuel Bürki und ich bin Informatikschüler an der Kantonsschule Hottingen. Ich
+                        interessiere mich für Fotografie, Rudern und Fahrradfahren. In meiner Freizeit programmiere ich
+                        gerne und arbeite an verschiedenen Projekten.
+                    </div>
+                    <div id="ueber_rechts_stichpunkte">
+                        <div className="u_r_s_element">
+                            <div className="u_r_s_titel">Alter:</div>
+                            <div className="u_r_s_text">17 Jahre</div>
+                        </div>
+                        <div className="u_r_s_element">
+                            <div className="u_r_s_titel">Wohnort:</div>
+                            <div className="u_r_s_text">Zürich</div>
+                        </div>
+                        <div className="u_r_s_element">
+                            <div className="u_r_s_titel">Beruf:</div>
+                            <div className="u_r_s_text">Schüler</div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="skills">
                 <div id="s_titel">Skills</div>

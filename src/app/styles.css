@@ -132,9 +132,10 @@
 }
 
 #navbar {
-    position: fixed;
+    position: sticky;
     width: 100vw;
     height: 15vh;
+    top: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

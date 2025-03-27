@@ -12,13 +12,13 @@ function MenuButton() {
             if (x[i].id !== "menu") {
                 if (x[i].style.display === "none") {
                     x[i].style.display = "block";
-                    navbar.style.height = "50vh";
+                    navbar.style.height = "30vh";
                     menu.style.backgroundColor = "#ECDFCC";
                     menu.style.color = "black";
                 } else {
                     x[i].style.display = "none";
                     xfirst.style.display = "block";
-                    navbar.style.height = "15vh";
+                    navbar.style.height = "10vh";
                     menu.style.backgroundColor = "#262626";
                     menu.style.color = "#F6CF60";
                 }

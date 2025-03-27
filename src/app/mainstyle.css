@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 main {
     height: auto;
@@ -12,17 +12,17 @@ main {
 }
 
 :root {
-    --header-img-size: 85vh;
-    --extra-light: 100;
-    --light: 200;
+    --header-img-size: 90vh;
+    --extra-light: 200;
+    --light: 300;
     --regular: 400;
     --medium: 500;
     --semi-bold: 600;
     --bold: 700;
     --extra-bold: 800;
     --black: 900;
-    --titel: 5vw;
-    --titel_handy: 12vw;
+    --titel: 3.5vw;
+    --titel_handy: 10vw;
 }
 
 #projekte {
@@ -32,7 +32,7 @@ main {
 
 #ueber {
     display: flex;
-    margin: 20vh 0;
+    margin: 25vh 0;
     justify-content: space-evenly;
 }
 
@@ -44,7 +44,7 @@ main {
 
 #ueber_links_foto {
     width: 32vw;
-    margin: 0 0 0 8vw;
+    margin: 0 0 0 10vw;
     border-radius: 10px;
     box-shadow: 6px 6px 20px 10px black;
     transform: scaleX(-1);
@@ -55,7 +55,7 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 50vw;
-    margin: 0 8vw;
+    margin: 0 10vw;
 }
 
 #ueber_rechts_titel {
@@ -66,16 +66,19 @@ main {
 }
 
 #ueber_rechts_strich {
-    height: 1vh;
+    height: 0.8vh;
     width: 15vw;
     background-color: #697565;
     margin: 0 0 0 0;
 }
 
 #ueber_rechts_text {
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     color: black;
     margin: 4vh 0 4vh 0;
+    width: 35vw;
+    word-spacing: 0.15em;
+    line-height: 1.4em;
 }
 
 .u_r_s_element {
@@ -86,16 +89,16 @@ main {
 }
 
 .u_r_s_titel {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     line-height: 1.6vw;
-    font-weight: var(--bold);
+    font-weight: var(--semi-bold);
     color: black;
     margin: 0 2vw 0 0;
-    width: 10vw;
+    width: 7vw;
 }
 
 .u_r_s_text {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     line-height: 1px;
     color: black;
     margin: 0 0 0 0;
@@ -107,13 +110,14 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 2vw;
 }
 
 #s_titel {
     font-size: var(--titel);
     font-weight: var(--medium);
     color: #F6CF60;
-    padding: 1vw 0;
+    padding: 3vw 0 0 0;
 }
 
 #s_list {
@@ -131,9 +135,9 @@ main {
 }
 
 .s_l_icon {
-    height: 4.8vw;
-    width: 5vw;
-    margin: 0 2vw;
+    height: 4.2vw;
+    width: 4.4vw;
+    margin: 3vw 4vw 0 4vw;
     border-radius: 500px;
     background-color: white;
     color: black;
@@ -145,16 +149,16 @@ main {
 }
 
 .s_l_titel {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     color: white;
-    margin: 1vw 0 2vw 0;
+    margin: 1.5vw 0 3vw 0;
     text-align: center;
 }
 
 @media screen and (max-width: 1400px) {
     #ueber {
         flex-direction: column;
-        margin: 10vh 0;
+        margin: 15vh 0;
         justify-content: center;
         width: 100vw;
     }
@@ -173,7 +177,7 @@ main {
 
     #ueber_rechts {
         width: 95vw;
-        margin: 0 0 5vh 5vw;
+        margin: 5vh 0 5vh 10vw;
         align-items: flex-start;
     }
 
@@ -184,14 +188,14 @@ main {
 
     #ueber_rechts_strich {
         width: 35vw;
-        height: 0.8vh;
-        margin: 0 0 0 0;
+        height: 0.6vh;
+        margin: 0.8vh 0 -1vh 0;
     }
 
     #ueber_rechts_text {
-        width: 80vw;
-        font-size: 5vw;
-        margin: 4vh 2vw 4vh 0;
+        width: 75vw;
+        font-size: 4vw;
+        margin: 4vh 2vw 2vh 0;
     }
 
     .u_r_s_element {
@@ -199,21 +203,21 @@ main {
     }
 
     .u_r_s_titel {
-        font-size: 4vw;
+        font-size: 3.6vw;
         line-height: 4.5vw;
         margin: 0 2vw 0 0;
         width: 25vw;
     }
 
     .u_r_s_text {
-        font-size: 4vw;
+        font-size: 3.6vw;
         line-height: 1px;
         margin: 0 0 0 0;
     }
 
     #s_titel {
         font-size: var(--titel_handy);
-        margin: 1vh 0;
+        margin: 5vh 0 5vh 0;
     }
 
     #s_list {
@@ -221,14 +225,14 @@ main {
     }
 
     .s_l_icon {
-        height: 20vw;
-        width: 20vw;
-        margin: 0 4vw;
+        height: 14vw;
+        width: 14vw;
+        margin: 1vh 8vw 0 8vw;
         box-shadow: 5px 5px 20px 0px black;
     }
 
     .s_l_titel {
-        font-size: 4vw;
-        margin: 1vw 0 2vw 0;
+        font-size: 3vw;
+        margin: 4vw 0 5vw 0;
     }
 }

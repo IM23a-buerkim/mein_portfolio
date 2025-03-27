@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -7,9 +7,9 @@
 }
 
 :root {
-    --header-img-size: 85vh;
-    --extra-light: 100;
-    --light: 200;
+    --header-img-size: 90vh;
+    --extra-light: 200;
+    --light: 300;
     --regular: 400;
     --medium: 500;
     --semi-bold: 600;
@@ -98,7 +98,7 @@
 }
 
 #img_landschaft_right_middle {
-    height: 45vh;
+    height: 55vh;
     width: 100%;
     color: white;
     display: flex;
@@ -108,7 +108,7 @@
 
 .ilrm_text {
     font-size: 9vh;
-    font-weight: var(--semi-bold);
+    font-weight: var(--medium);
     line-height: 1.3;
     padding-left: 8vw;
 }
@@ -127,14 +127,14 @@
 
 .ilrb_text {
     font-size: 3.5vh;
-    font-weight: var(--regular);
+    font-weight: var(--light);
     padding-top: 2vh;
 }
 
 #navbar {
     position: sticky;
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     top: 0;
     display: flex;
     justify-content: space-evenly;
@@ -150,9 +150,9 @@
     color: #F6CF60;
     font-size: 3.5vh;
     background-color: #262626;
-    padding: 1.5vh 0;
+    padding: 1.1vh 0;
     border-radius: 20px;
-    width: 18vw;
+    width: 15vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,14 +204,18 @@
 }
 
 @media screen and (max-width: 1400px) {
+    #img_landschaft {
+        height: 90vh;
+    }
+
     #img_landschaft_cover {
         flex-direction: column;
-        height: 85vh;
+        height: 90vh;
     }
 
     #img_landschaft_left {
         width: 100%;
-        height: 30vh;
+        height: 35vh;
     }
 
     #img_landschaft_left_foto {
@@ -221,7 +225,9 @@
 
     #img_landschaft_right {
         width: 100%;
-        height: 55vh;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(2px);
     }
 
     #img_landschaft_right_top {
@@ -229,7 +235,7 @@
     }
 
     .ilrt_text {
-        font-size: 5.5vw;
+        font-size: 4.8vw;
         margin: 0 2vw;
     }
 
@@ -238,12 +244,12 @@
     }
 
     #img_landschaft_right_middle {
-        height: 25vh;
+        height: 30vh;
     }
 
     .ilrm_text {
-        font-size: 15vw;
-        padding-left: 10vw;
+        font-size: 12vw;
+        padding-left: 12vw;
     }
 
     #img_landschaft_right_bottom {
@@ -251,11 +257,12 @@
     }
 
     .ilrb_text {
-        font-size: 6vw;
+        font-size: 4.8vw;
+        padding-top: 4vh;
     }
 
     #navbar {
-        height: 15vh;
+        height: 10vh;
         flex-wrap: wrap;
     }
 
@@ -272,9 +279,10 @@
     }
 
     .navbar_text {
-        font-size: 5vw;
-        width: 40vw;
-        padding: 3vh 0;
+        font-size: 4.8vw;
+        width: 35vw;
+        padding: 1.2vh 0;
+        border-radius: 15px;
     }
 
     .navbar_text:hover {
@@ -286,6 +294,7 @@
         flex-direction: column;
         font-size: 5.5vw;
         height: 30vh;
+        padding: 4vh 0;
     }
 
     #footer_icons {

@@ -1,14 +1,15 @@
 import React from 'react';
-import Layout from './layout';
+import './variables.css';
+import './styles.css';
 import './mainstyle.css';
+import './projekte_style.css';
+import Project from './projekte';
 
 
 const Page = () => {
     return (
         <div className="content">
-            <div id="projekte">
-                <h2>Projekte</h2>
-            </div>
+            <Project/>
             <div id="ueber">
                 <div id="ueber_links">
                     <img id="ueber_links_foto" src="/Manuel_Portfolio.jpg" alt="Mein Foto"></img>
@@ -17,8 +18,10 @@ const Page = () => {
                     <div id="ueber_rechts_titel">Über mich</div>
                     <div id="ueber_rechts_strich"></div>
                     <div id="ueber_rechts_text">
-                        Mein Name ist Manuel Bürki und ich bin Informatikschüler an der Kantonsschule Hottingen. Ich
-                        interessiere mich für Fotografie, Rudern und Fahrradfahren. In meiner Freizeit programmiere ich
+                        Mein Name ist Manuel Bürki und ich bin Informatikschüler an der Kantonsschule Hottingen.
+                        Ich
+                        interessiere mich für Fotografie, Rudern und Fahrradfahren. In meiner Freizeit
+                        programmiere ich
                         gerne und arbeite an verschiedenen Projekten.
                     </div>
                     <div id="ueber_rechts_stichpunkte">

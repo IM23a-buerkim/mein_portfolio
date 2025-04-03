@@ -1,4 +1,7 @@
+import './variables.css';
 import './styles.css';
+import './mainstyle.css';
+import './projekte_style.css';
 import MenuButton from './MenuButton';
 
 
@@ -15,12 +18,12 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="de">
-        <body>
         <head>
             <meta name="theme-color" content="#697565"/>
             <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
             <link rel="manifest" href="/manifest.json"/>
         </head>
+        <body>
         <header>
             <div id="img_landschaft" style={{backgroundImage: "url('/Landschaft_Portfolio.jpg')"}}></div>
             <div id="img_landschaft_cover">

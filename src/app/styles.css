@@ -1,21 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('./variables.css');
+
 
 * {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
-}
-
-:root {
-    --header-img-size: 90vh;
-    --extra-light: 200;
-    --light: 300;
-    --regular: 400;
-    --medium: 500;
-    --semi-bold: 600;
-    --bold: 700;
-    --extra-bold: 800;
-    --black: 900;
 }
 
 #img_landschaft {
@@ -201,6 +191,14 @@
     box-shadow: 5px 5px 20px 0px transparent;
     background-color: transparent;
     border-radius: 100px;
+}
+
+#footer_impressum {
+    width: 25vw;
+}
+
+#footer_copy {
+    width: 25vw;
 }
 
 @media screen and (max-width: 1400px) {

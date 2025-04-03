@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('./variables.css');
 
 main {
     height: auto;
@@ -11,28 +12,9 @@ main {
     margin: 0;
 }
 
-:root {
-    --header-img-size: 90vh;
-    --extra-light: 200;
-    --light: 300;
-    --regular: 400;
-    --medium: 500;
-    --semi-bold: 600;
-    --bold: 700;
-    --extra-bold: 800;
-    --black: 900;
-    --titel: 3.5vw;
-    --titel_handy: 10vw;
-}
-
-#projekte {
-    height: 50vh;
-    background-color: pink;
-}
-
 #ueber {
     display: flex;
-    margin: 25vh 0;
+    margin: 20vh 0;
     justify-content: space-evenly;
 }
 
@@ -67,7 +49,7 @@ main {
 
 #ueber_rechts_strich {
     height: 0.8vh;
-    width: 15vw;
+    width: 12vw;
     background-color: #697565;
     margin: 0 0 0 0;
 }

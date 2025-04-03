@@ -307,9 +307,11 @@
 
     #footer_copy {
         order: 3;
+        width: auto;
     }
 
     #footer_impressum {
         order: 2;
+        width: auto;
     }
 }

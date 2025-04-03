@@ -87,3 +87,34 @@
     margin: 20px 120px;
     flex-shrink: 0;
 }
+
+@media screen and (max-width: 1400px) {
+    #projekte {
+        padding: 10vh 0;
+    }
+
+    #projekt_titel {
+        font-size: var(--titel_handy);
+        margin: 0 0 0 5vw;
+    }
+
+    #projekt_strich {
+        height: 0.6vh;
+        width: 35vw;
+        margin: 0 0 0 5vw;
+    }
+
+    #projekt_container {
+        margin: 2vh 0 2vh 0;
+        padding: 0 0 0 0;
+        width: 100%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .projekt_element {
+        width: 70vw;
+        height: 450px;
+        margin: 20px 15vw;
+    }
+}

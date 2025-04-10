@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect, useRef } from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import './projekte_style.css';
 
 const Project = () => {
@@ -72,23 +72,48 @@ const Project = () => {
             <div id="projekt_container" ref={containerRef}>
                 <div className="projekt_element">
                     <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
-                    <div className="projekt_titel">Projekt 1</div>
-                    <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
+                    <div className="projekt_inhalt">
+                        <div className="projekt_titel">Projekt 1</div>
+                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
+                        <div className="projekt_inhalt2">
+                            <div className="projekt_sprache">Java</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="projekt_element">
                     <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
-                    <div className="projekt_titel">Projekt 2</div>
-                    <div className="projekt_text">Dies ist ein Beispieltext für Projekt 2.</div>
+                    <div className="projekt_inhalt">
+                        <div className="projekt_titel">Projekt 2</div>
+                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1. Dies ist ein Beispieltext für Projekt 1. Dies ist ein Beispieltext für Projekt 1.</div>
+                        <div className="projekt_inhalt2">
+                            <div className="projekt_sprache">Java</div>
+                            <div className="projekt_sprache">Java</div>
+                            <div className="projekt_sprache">Java</div>
+                            <div className="projekt_sprache">Java</div>
+                            <div className="projekt_sprache">Java</div>
+                            <div className="projekt_sprache">Java</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="projekt_element">
                     <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
-                    <div className="projekt_titel">Projekt 3</div>
-                    <div className="projekt_text">Dies ist ein Beispieltext für Projekt 3.</div>
+                    <div className="projekt_inhalt">
+                        <div className="projekt_titel">Projekt 3</div>
+                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
+                        <div className="projekt_inhalt2">
+                            <div className="projekt_sprache">Java</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="projekt_element">
                     <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
-                    <div className="projekt_titel">Projekt 3</div>
-                    <div className="projekt_text">Dies ist ein Beispieltext für Projekt 3.</div>
+                    <div className="projekt_inhalt">
+                        <div className="projekt_titel">Projekt 4</div>
+                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
+                        <div className="projekt_inhalt2">
+                            <div className="projekt_sprache">Java</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="scrollbar-wrapper" ref={wrapperRef}>

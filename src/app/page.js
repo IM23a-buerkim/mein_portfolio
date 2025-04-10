@@ -3,6 +3,7 @@ import './variables.css';
 import './styles.css';
 import './mainstyle.css';
 import './projekte_style.css';
+import AgeComponent from'./age.js';
 import Project from './projekte';
 
 
@@ -27,7 +28,7 @@ const Page = () => {
                     <div id="ueber_rechts_stichpunkte">
                         <div className="u_r_s_element">
                             <div className="u_r_s_titel">Alter:</div>
-                            <div className="u_r_s_text">17 Jahre</div>
+                            <AgeComponent/>
                         </div>
                         <div className="u_r_s_element">
                             <div className="u_r_s_titel">Wohnort:</div>

@@ -158,7 +158,10 @@
     background: #F6CF60;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 600px) {
+    #projekte {
+        padding: 10vh 0;
+    }
     #projekte {
         padding: 10vh 0;
     }
@@ -199,8 +202,8 @@
     }
 
     .projekt_icon {
-        width: 50%;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         margin: 15px 0;
         background-size: cover;
         background-position: center;
@@ -215,14 +218,14 @@
     }
 
     .projekt_titel {
-        font-size: 6vw;
+        font-size: 5vw;
         font-weight: var(--medium);
         color: #F6CF60;
         margin: 0 0 0 0;
     }
 
     .projekt_text {
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: var(--light);
         color: white;
         word-spacing: 0.1em;

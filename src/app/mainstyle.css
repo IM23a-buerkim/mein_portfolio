@@ -151,19 +151,19 @@ main {
 
     #ueber_links {
         width: 100vw;
-        margin: 0 0 5vh 0;
+        margin: 0 0 1vh 0;
         align-items: center;
     }
 
     #ueber_links_foto {
-        width: 70vw;
+        width: 60vw;
         margin: 0 0 0 0;
-        box-shadow: 5px 5px 20px 1px black;
+        box-shadow: 5px 5px 20px 1px #6F7A7A;
     }
 
     #ueber_rechts {
         width: 90vw;
-        margin: 5vh 0 5vh 10vw;
+        margin: 2vh 0 5vh 10vw;
         align-items: flex-start;
     }
 
@@ -175,13 +175,15 @@ main {
     #ueber_rechts_strich {
         width: 35vw;
         height: 0.6vh;
-        margin: 0.8vh 0 -1vh 0;
+        margin: 0.1vh 0 -1vh 0;
     }
 
     #ueber_rechts_text {
         width: 75vw;
-        font-size: 4vw;
-        margin: 4vh 2vw 2vh 0;
+        font-size: 3.7vw;
+        margin: 3.4vh 2vw 2vh 0;
+        line-height: 1.5em;
+        word-spacing: 0.1em;
     }
 
     .u_r_s_element {
@@ -201,24 +203,29 @@ main {
         margin: 0 0 0 0;
     }
 
+    #skills {
+        padding: 8vh 0 8vh 0;
+    }
+
     #s_titel {
         font-size: var(--titel_handy);
-        margin: 5vh 0 5vh 0;
+        margin: 1vh 0 3vh 0;
+        padding: 0;
     }
 
     #s_list {
-        margin: 0 0 3vh 0;
+        margin: 0 1vw 2vh 1vw;
     }
 
     .s_l_icon {
-        height: 14vw;
-        width: 14vw;
-        margin: 1vh 8vw 0 8vw;
-        box-shadow: 5px 5px 20px 0px black;
+        height: 12vw;
+        width: 12vw;
+        margin: 1vh 6.5vw 0 6.5vw;
+        box-shadow: 5px 5px 15px 0px black;
     }
 
     .s_l_titel {
-        font-size: 3vw;
-        margin: 4vw 0 5vw 0;
+        font-size: 2.8vw;
+        margin: 4vw 0 3vw 0;
     }
 }

@@ -109,13 +109,15 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className="projekt_element">
-                    <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
-                    <div className="projekt_inhalt">
-                        <div className="projekt_titel">Projekt 4</div>
-                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
-                        <div className="projekt_inhalt2">
-                            <div className="projekt_sprache">Java</div>
+                <div id="projekt_element_wrapper_last">
+                    <div className="projekt_element">
+                        <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
+                        <div className="projekt_inhalt">
+                            <div className="projekt_titel">Projekt 4</div>
+                            <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
+                            <div className="projekt_inhalt2">
+                                <div className="projekt_sprache">Java</div>
+                            </div>
                         </div>
                     </div>
                 </div>

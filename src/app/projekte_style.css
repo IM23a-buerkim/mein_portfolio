@@ -202,7 +202,11 @@
     }
 
     .projekt_element:last-child {
-        margin-right: 20vw;
+        margin-right: 0;
+    }
+
+    #projekt_element_wrapper_last {
+        padding-right: 20vw;
     }
 
     .projekt_icon {

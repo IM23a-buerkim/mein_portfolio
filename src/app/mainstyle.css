@@ -12,9 +12,13 @@ main {
     margin: 0;
 }
 
+#ueber_abstand {
+    height: 20vh;
+}
+
 #ueber {
     display: flex;
-    margin: 20vh 0;
+    margin: 0vh 0 40vh 0;
     justify-content: space-evenly;
 }
 
@@ -25,10 +29,10 @@ main {
 }
 
 #ueber_links_foto {
-    width: 32vw;
-    margin: 0 0 0 10vw;
+    width: 28vw;
+    margin: 0 0 0 12vw;
     border-radius: 10px;
-    box-shadow: 6px 6px 20px 10px black;
+    box-shadow: 6px 6px 20px 10px #6F7A7A;
     transform: scaleX(-1);
 }
 
@@ -55,12 +59,12 @@ main {
 }
 
 #ueber_rechts_text {
-    font-size: 1.4vw;
+    font-size: 1.22vw;
     color: black;
     margin: 4vh 0 4vh 0;
     width: 35vw;
-    word-spacing: 0.15em;
-    line-height: 1.4em;
+    word-spacing: 0.1em;
+    line-height: 1.5em;
 }
 
 .u_r_s_element {
@@ -71,16 +75,16 @@ main {
 }
 
 .u_r_s_titel {
-    font-size: 1.2vw;
+    font-size: 1.15vw;
     line-height: 1.6vw;
     font-weight: var(--semi-bold);
     color: black;
-    margin: 0 2vw 0 0;
+    margin: 0 1.2vw 0 0;
     width: 7vw;
 }
 
 .u_r_s_text {
-    font-size: 1.2vw;
+    font-size: 1.15vw;
     line-height: 1px;
     color: black;
     margin: 0 0 0 0;
@@ -92,14 +96,14 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 2vw;
+    padding: 14vh 0 14vh 0;
 }
 
 #s_titel {
     font-size: var(--titel);
     font-weight: var(--medium);
     color: #F6CF60;
-    padding: 3vw 0 0 0;
+    padding: 0 0 4vh 0;
 }
 
 #s_list {
@@ -119,7 +123,7 @@ main {
 .s_l_icon {
     height: 4.2vw;
     width: 4.4vw;
-    margin: 3vw 4vw 0 4vw;
+    margin: 2vw 3vw 0 3vw;
     border-radius: 500px;
     background-color: white;
     color: black;
@@ -133,7 +137,7 @@ main {
 .s_l_titel {
     font-size: 1.1vw;
     color: white;
-    margin: 1.5vw 0 3vw 0;
+    margin: 1.5vw 0 1.5vw 0;
     text-align: center;
 }
 

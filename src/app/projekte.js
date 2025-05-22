@@ -67,6 +67,7 @@ const Project = () => {
 
     return (
         <div id="projekte">
+            <div id="projekt_abstand"></div>
             <div id="projekt_titel">Projekte</div>
             <div id="projekt_strich"></div>
             <div id="projekt_container" ref={containerRef}>
@@ -84,7 +85,10 @@ const Project = () => {
                     <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
                     <div className="projekt_inhalt">
                         <div className="projekt_titel">Projekt 2</div>
-                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1. Dies ist ein Beispieltext für Projekt 1. Dies ist ein Beispieltext für Projekt 1.</div>
+                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1. Dies ist ein Beispieltext
+                            für
+                            Projekt 1. Dies ist ein Beispieltext für Projekt 1.
+                        </div>
                         <div className="projekt_inhalt2">
                             <div className="projekt_sprache">Java</div>
                             <div className="projekt_sprache">Java</div>
@@ -120,7 +124,8 @@ const Project = () => {
                 <div className="scrollbar-thumb" ref={thumbRef}></div>
             </div>
         </div>
-    );
+    )
+        ;
 };
 
 export default Project;

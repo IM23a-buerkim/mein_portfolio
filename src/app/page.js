@@ -11,6 +11,7 @@ const Page = () => {
     return (
         <div className="content">
             <Project/>
+            <div id="ueber_abstand"></div>
             <div id="ueber">
                 <div id="ueber_links">
                     <img id="ueber_links_foto" src="/Manuel_Portfolio.jpg" alt="Mein Foto"></img>
@@ -20,10 +21,9 @@ const Page = () => {
                     <div id="ueber_rechts_strich"></div>
                     <div id="ueber_rechts_text">
                         Mein Name ist Manuel Bürki und ich bin Informatikschüler an der Kantonsschule Hottingen.
-                        Ich
-                        interessiere mich für Fotografie, Rudern und Fahrradfahren. In meiner Freizeit
-                        programmiere ich
-                        gerne und arbeite an verschiedenen Projekten.
+                        In meiner Freizeit rudere ich im Seeclub Küsnacht im Leistungsteam.
+                        Wenn ich gerade nicht am Rudern bin, gehe ich gerne Rennrad fahren
+                        oder unternehme etwas mit Freunden.
                     </div>
                     <div id="ueber_rechts_stichpunkte">
                         <div className="u_r_s_element">

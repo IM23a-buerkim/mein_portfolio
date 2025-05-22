@@ -13,3 +13,7 @@
     --scrollbar-width: 30vw;
     --max-width: 600px;
 }
+
+html {
+    scroll-behavior: smooth;
+}

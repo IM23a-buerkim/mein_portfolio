@@ -199,9 +199,60 @@
     justify-content: center;
 }
 
+#footer_impressum:hover {
+    cursor: pointer;
+}
+
 #footer_copy {
     width: 25vw;
     text-align: center;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background: #ECDFCC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    font-size: 12px;
+    color: #262626;
+    width: 50%;
+}
+
+.modal-content p {
+    margin: 10px 0 20px 0;
+    text-align: left;
+}
+
+.modal-content .button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modal-content button {
+    background-color: #697565;
+    color: #F6CF60;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 600px) {
@@ -293,9 +344,9 @@
 
     #footer {
         flex-direction: column;
-        font-size: 5.5vw;
-        height: 30vh;
-        padding: 4vh 0;
+        font-size: 4.5vw;
+        height: 35vh;
+        padding: 5vh 0;
     }
 
     #footer_icons {
@@ -304,8 +355,8 @@
     }
 
     .footer_icons {
-        width: 12vw;
-        height: 12vw;
+        width: 10vw;
+        height: 10vw;
     }
 
     #footer_copy {
@@ -316,5 +367,10 @@
     #footer_impressum {
         order: 2;
         width: auto;
+    }
+
+    .modal-content {
+        width: 90%;
+        padding: 5px 10px;
     }
 }

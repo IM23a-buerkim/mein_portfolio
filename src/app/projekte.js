@@ -72,51 +72,53 @@ const Project = () => {
             <div id="projekt_strich"></div>
             <div id="projekt_container" ref={containerRef}>
                 <div className="projekt_element">
-                    <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
+                    <div className="projekt_icon" style={{backgroundImage: "url('/SCK_Try1.png')"}}></div>
                     <div className="projekt_inhalt">
-                        <div className="projekt_titel">Projekt 1</div>
-                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
+                        <div className="projekt_titel">SCK_Try1</div>
+                        <div className="projekt_text">Bei diesem Projekt habe ich versucht die Webseite meines Ruderclubs
+                        zu verbessern.</div>
                         <div className="projekt_inhalt2">
-                            <div className="projekt_sprache">Java</div>
+                            <div className="projekt_sprache">HTML</div>
+                            <div className="projekt_sprache">CSS</div>
+                            <div className="projekt_sprache">JavaScript</div>
                         </div>
                     </div>
                 </div>
                 <div className="projekt_element">
-                    <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
+                    <div className="projekt_icon" style={{backgroundImage: "url('/Geschichte-der-Schweizer-Uhrenindustrie.png')"}}></div>
                     <div className="projekt_inhalt">
-                        <div className="projekt_titel">Projekt 2</div>
-                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1. Dies ist ein Beispieltext
-                            für
-                            Projekt 1. Dies ist ein Beispieltext für Projekt 1.
+                        <div className="projekt_titel">Geschichte-der-Schweizer-Uhrenindustrie</div>
+                        <div className="projekt_text">Dieses Projekt habe ich mit Klassenkameraden gemacht. Wir haben
+                            die Geschichte der Schweizer Uhrenindustrie auf einer Webseite dargestellt.
                         </div>
                         <div className="projekt_inhalt2">
-                            <div className="projekt_sprache">Java</div>
-                            <div className="projekt_sprache">Java</div>
-                            <div className="projekt_sprache">Java</div>
-                            <div className="projekt_sprache">Java</div>
-                            <div className="projekt_sprache">Java</div>
-                            <div className="projekt_sprache">Java</div>
+                            <div className="projekt_sprache">HTML</div>
+                            <div className="projekt_sprache">CSS</div>
+                            <div className="projekt_sprache">JavaScript</div>
                         </div>
                     </div>
                 </div>
                 <div className="projekt_element">
-                    <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
+                    <div className="projekt_icon" style={{backgroundImage: "url('/Schiffe-versenken.png')"}}></div>
                     <div className="projekt_inhalt">
-                        <div className="projekt_titel">Projekt 3</div>
-                        <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
+                        <div className="projekt_titel">Schiffe-versenken</div>
+                        <div className="projekt_text">Hier habe ich vor langer Zeit einmal ein Schiffe versenken Spiel
+                            gemacht, nur mit Python.</div>
                         <div className="projekt_inhalt2">
-                            <div className="projekt_sprache">Java</div>
+                            <div className="projekt_sprache">Python</div>
                         </div>
                     </div>
                 </div>
                 <div id="projekt_element_wrapper_last">
                     <div className="projekt_element">
-                        <div className="projekt_icon" style={{backgroundImage: "url('/data.png')"}}></div>
+                        <div className="projekt_icon" style={{backgroundImage: "url('/mein_portfolio.png')"}}></div>
                         <div className="projekt_inhalt">
-                            <div className="projekt_titel">Projekt 4</div>
-                            <div className="projekt_text">Dies ist ein Beispieltext für Projekt 1.</div>
+                            <div className="projekt_titel">mein_portfolio</div>
+                            <div className="projekt_text">Das ist das Gitrepository von dieser Webseite.</div>
                             <div className="projekt_inhalt2">
-                                <div className="projekt_sprache">Java</div>
+                                <div className="projekt_sprache">JavaScript</div>
+                                <div className="projekt_sprache">HTML</div>
+                                <div className="projekt_sprache">CSS</div>
                             </div>
                         </div>
                     </div>

@@ -90,13 +90,63 @@ main {
     margin: 0 0 0 0;
 }
 
+#skills_switch_line {
+    height: 6vh;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#skills_switch_field {
+    width: 16vw;
+    height: 5vh;
+    margin-right: 5vw;
+    background-color: #262626;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#skills_switch_Andere, #skills_switch_Programmieren {
+    padding: 0 1.2vw;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    color: #F6CF60;
+    cursor: pointer;
+}
+
+#skills_switch_Andere.active,
+#skills_switch_Programmieren.active {
+    background-color: #F6CF60;
+    color: #262626;
+    animation: highlight 4s infinite;
+}
+
+@keyframes highlight {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 #skills {
     height: auto;
     background-color: #697565;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 14vh 0 14vh 0;
+    padding: 8vh 0 14vh 0;
 }
 
 #s_titel {
@@ -106,8 +156,15 @@ main {
     padding: 0 0 4vh 0;
 }
 
-#s_list {
+#s_list_andere {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#s_list_programmieren {
+    display: none;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
@@ -204,12 +261,33 @@ main {
     }
 
     #skills {
-        padding: 8vh 0 8vh 0;
+        padding: 5vh 0 8vh 0;
+    }
+
+    #skills_switch_line {
+        height: 4vh;
+    }
+
+    #skills_switch_field {
+        width: 43vw;
+        height: 4vh;
+        border-radius: 10px;
+    }
+
+    #skills_switch_Andere, #skills_switch_Programmieren {
+        padding: 0 1.2vw;
+        height: 4vh;
+        border-radius: 10px;
+        font-size: 1.8vh;
+    }
+
+    #skills_switch_Andere.active,
+    #skills_switch_Programmieren.active {
     }
 
     #s_titel {
         font-size: var(--titel_handy);
-        margin: 1vh 0 3vh 0;
+        margin: 3vh 0 3vh 0;
         padding: 0;
     }
 

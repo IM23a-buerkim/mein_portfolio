@@ -79,7 +79,7 @@ export default function RootLayout({children}) {
                            className="ilrt_text">Instagram</a>
                     </div>
                     <div id="img_landschaft_right_middle">
-                        <div className="ilrm_text">Manuel</div>
+                        <div className="ilrm_text">Manuel1</div>
                         <div className="ilrm_text">Bürki</div>
                     </div>
                     <div id="img_landschaft_right_bottom">

@@ -8,12 +8,12 @@
 }
 
 #projekt_abstand {
-    height: 20vh;
+    height: 10vh;
 }
 
 #projekte {
     height: auto;
-    background-color: #FFF9F0;
+    background-color: transparent;
     color: black;
     padding: 20vh 0 21vh 0;
     position: relative;
@@ -42,7 +42,7 @@
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
     position: relative;
-    margin: 30px 70px;
+    margin: 20px 70px;
     flex-shrink: 0;
 }
 
@@ -52,6 +52,7 @@
 
 .projekt_element:last-child {
     margin-right: 200px;
+    margin-left: 70px;
 }
 
 .projekt_icon {
@@ -112,7 +113,6 @@
     padding: 2px 10px;
     border-radius: 20px;
 }
-
 
 
 #projekt_container {
@@ -182,11 +182,12 @@
 }
 
 @media screen and (max-width: 600px) {
-    #projekte {
-        padding: 10vh 0;
+    #projekt_abstand {
+        height: 15vh;
     }
+
     #projekte {
-        padding: 10vh 0;
+        padding: 1vh 0;
     }
 
     #projekt_titel {
@@ -278,7 +279,7 @@
     }
 
     .scrollbar-wrapper {
-        bottom: 7vh;
+        bottom: -3vh;
         left: 25vw;
         width: 50vw;
     }

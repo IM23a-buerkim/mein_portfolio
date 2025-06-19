@@ -199,9 +199,13 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+    #ueber_abstand {
+        height: 15vh;
+    }
+
     #ueber {
         flex-direction: column;
-        margin: 13vh 0 15vh 0;
+        margin: 1vh 0 15vh 0;
         justify-content: center;
         width: 100vw;
     }

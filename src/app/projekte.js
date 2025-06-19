@@ -84,7 +84,7 @@ const Project = () => {
                         </div>
                     </div>
                 </a>
-                <a href="https://github.com/IM23a-buerkim/Geschichte-der-Schweizer-Uhrenindustrie" className="projekt_element">
+                <a href="https://github.com/IM23a-buerkim/Geschichte-der-Schweizer-Uhrenindustrie" target="_blank" className="projekt_element">
                     <div className="projekt_icon" style={{backgroundImage: "url('/Geschichte-der-Schweizer-Uhrenindustrie.png')"}}></div>
                     <div className="projekt_inhalt">
                         <div className="projekt_titel">Geschichte-der-Schweizer-Uhrenindustrie</div>

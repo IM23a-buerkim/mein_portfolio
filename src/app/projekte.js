@@ -71,7 +71,7 @@ const Project = () => {
             <div id="projekt_titel">Projekte</div>
             <div id="projekt_strich"></div>
             <div id="projekt_container" ref={containerRef}>
-                <div className="projekt_element">
+                <a href="https://github.com/IM23a-buerkim/SCK_Try1" target="_blank" className="projekt_element">
                     <div className="projekt_icon" style={{backgroundImage: "url('/SCK_Try1.png')"}}></div>
                     <div className="projekt_inhalt">
                         <div className="projekt_titel">SCK_Try1</div>
@@ -83,8 +83,8 @@ const Project = () => {
                             <div className="projekt_sprache">JavaScript</div>
                         </div>
                     </div>
-                </div>
-                <div className="projekt_element">
+                </a>
+                <a href="https://github.com/IM23a-buerkim/Geschichte-der-Schweizer-Uhrenindustrie" className="projekt_element">
                     <div className="projekt_icon" style={{backgroundImage: "url('/Geschichte-der-Schweizer-Uhrenindustrie.png')"}}></div>
                     <div className="projekt_inhalt">
                         <div className="projekt_titel">Geschichte-der-Schweizer-Uhrenindustrie</div>
@@ -97,8 +97,8 @@ const Project = () => {
                             <div className="projekt_sprache">JavaScript</div>
                         </div>
                     </div>
-                </div>
-                <div className="projekt_element">
+                </a>
+                <a href="https://github.com/IM23a-buerkim/Schiffe-versenken" target="_blank" className="projekt_element">
                     <div className="projekt_icon" style={{backgroundImage: "url('/Schiffe-versenken.png')"}}></div>
                     <div className="projekt_inhalt">
                         <div className="projekt_titel">Schiffe-versenken</div>
@@ -108,9 +108,9 @@ const Project = () => {
                             <div className="projekt_sprache">Python</div>
                         </div>
                     </div>
-                </div>
+                </a>
                 <div id="projekt_element_wrapper_last">
-                    <div className="projekt_element">
+                    <a href="https://github.com/IM23a-buerkim/mein_portfolio" target="_blank" className="projekt_element">
                         <div className="projekt_icon" style={{backgroundImage: "url('/mein_portfolio.png')"}}></div>
                         <div className="projekt_inhalt">
                             <div className="projekt_titel">mein_portfolio</div>
@@ -121,7 +121,7 @@ const Project = () => {
                                 <div className="projekt_sprache">CSS</div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className="scrollbar-wrapper" ref={wrapperRef}>

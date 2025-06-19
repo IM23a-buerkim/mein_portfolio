@@ -34,6 +34,7 @@
 }
 
 .projekt_element {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     width: 450px;
@@ -44,6 +45,10 @@
     position: relative;
     margin: 20px 70px;
     flex-shrink: 0;
+}
+
+.projekt_element:hover {
+    background-color: #4e4f46;
 }
 
 .projekt_element:first-child {

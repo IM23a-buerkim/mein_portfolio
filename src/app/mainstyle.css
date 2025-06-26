@@ -26,6 +26,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: transform 0.6s ease;
+}
+
+#ueber_links:hover {
+    transform: scale(1.05);
 }
 
 #ueber_links_foto {

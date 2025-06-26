@@ -64,12 +64,36 @@ const Page = () => {
                 {showProgrammierSkills ? (
                     <div id="s_list_programmieren" style={{display: 'flex'}}>
                         <div className="s_l_element">
-                            <div className="s_l_icon" style={{backgroundImage: "url('/data.png')"}}></div>
-                            <div className="s_l_titel">Programmieren</div>
+                            <div className="s_l_icon" style={{backgroundImage: "url('/javascript.png')"}}></div>
+                            <div className="s_l_titel">Javascript</div>
+                        </div>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/python.png')"}}></div>
+                            <div className="s_l_titel">Python</div>
+                        </div>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/css.png')"}}></div>
+                            <div className="s_l_titel">CSS</div>
+                        </div>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/html.png')"}}></div>
+                            <div className="s_l_titel">HTML</div>
+                        </div>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/sql.png')"}}></div>
+                            <div className="s_l_titel">SQL</div>
+                        </div>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/docker.png')"}}></div>
+                            <div className="s_l_titel">Docker</div>
                         </div>
                     </div>
                 ) : (
                     <div id="s_list_andere" style={{display: 'flex'}}>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/hike.png')"}}></div>
+                            <div className="s_l_titel">Wandern</div>
+                        </div>
                         <div className="s_l_element">
                             <div className="s_l_icon" style={{backgroundImage: "url('/dslr-camera.png')"}}></div>
                             <div className="s_l_titel">Fotografie</div>
@@ -81,6 +105,18 @@ const Page = () => {
                         <div className="s_l_element">
                             <div className="s_l_icon" style={{backgroundImage: "url('/bicycle.png')"}}></div>
                             <div className="s_l_titel">Fahrrad<br/>fahren</div>
+                        </div>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/run.png')"}}></div>
+                            <div className="s_l_titel">Joggen</div>
+                        </div>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/ski.png')"}}></div>
+                            <div className="s_l_titel">Ski fahren</div>
+                        </div>
+                        <div className="s_l_element">
+                            <div className="s_l_icon" style={{backgroundImage: "url('/langlauf.png')"}}></div>
+                            <div className="s_l_titel">Langlaufen</div>
                         </div>
                     </div>
                 )}
